@@ -23,7 +23,7 @@ export const ControlContainer = styled(Flex)`
     max-width: 100%;
   }
   ${({ theme }) => theme.mediaQueries.xl} {
-    padding: 0px 130px 0px 30px;
+    padding: 0px 110px 0px 30px;
   }
 `
 

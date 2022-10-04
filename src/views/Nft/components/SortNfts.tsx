@@ -51,7 +51,7 @@ const DropDown = styled.div`
   }
   background-color: ${(props) => props.theme.colors.primary};
   border-radius: 10%;
-  width: 140px;
+  min-width: 140px;
   color: white;
   height: 50px;
   text-align: center;

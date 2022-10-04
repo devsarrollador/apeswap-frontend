@@ -24,6 +24,7 @@ const HarvestAllAction: React.FC<HarvestActionsProps> = ({ pids, disabled }) => 
       <Button
         size="mds"
         className="noClick"
+        fullWidth={true}
         disabled={disabled || pendingTrx}
         onClick={async () => {
           setPendingTrx(true)

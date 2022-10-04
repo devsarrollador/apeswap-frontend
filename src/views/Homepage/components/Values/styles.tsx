@@ -14,11 +14,12 @@ export const ValueCard = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
+  gap: 8px;
   width: 338px;
   height: 397px;
   ${({ theme }) => theme.mediaQueries.md} {
-    margin: 0px 20px 0px 20px;
+    margin: 0px 20px;
   }
 `
 

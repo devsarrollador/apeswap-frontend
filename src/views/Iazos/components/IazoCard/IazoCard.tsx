@@ -76,7 +76,7 @@ const IazoCard: React.FC<iazoCardProps> = ({ iazo }) => {
           <BoldAfterText boldContent={`${liqudiityLock}%`}>{t('Liquidity Lock')}: </BoldAfterText>
         </TextBoxWrapper>
         {!isMobile && (
-          <TextBoxWrapper justify="flex-end" padding="15px">
+          <TextBoxWrapper justify="flex-end" align="center" padding="15px">
             <BoldAfterText boldContent={`${maxSpend} ${baseToken.symbol}`}>{t('Max Spend')} </BoldAfterText>
           </TextBoxWrapper>
         )}

@@ -5,7 +5,7 @@ export const StyledIfoCardDetails = styled.div`
   margin: 12px 0 0 0;
   border-radius: 5px;
   ${({ theme }) => theme.mediaQueries.sm} {
-    min-width: 320px;
+    min-width: 340px;
   }
 `
 
@@ -14,7 +14,6 @@ export const Item = styled.div`
   color: ${({ theme }) => theme.colors.success};
   display: flex;
   padding: 4px 5px;
-  gap: 16px;
   background: ${({ theme }) => theme.colors.white4};
   justify-content: space-between;
 

@@ -132,7 +132,7 @@ const GraphCardWrapper = styled.div`
   margin-left: 15px;
   ${({ theme }) => theme.mediaQueries.md} {
     align-items: flex-start;
-    margin-left: 335px;
+    margin-left: 400px;
     margin-top: 0px;
     margin-bottom: 0px;
   }

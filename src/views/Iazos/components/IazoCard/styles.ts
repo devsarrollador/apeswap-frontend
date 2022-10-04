@@ -37,7 +37,7 @@ const CardWrapperTemplate = styled.div`
   padding-left: 10px;
   padding-right: 10px;
   ${({ theme }) => theme.mediaQueries.md} {
-    padding-left: 35px;
+    padding-left: 15px;
     padding-right: 35px;
   }
 `
@@ -56,7 +56,7 @@ export const TopBodyWrapper = styled(CardWrapperTemplate)`
   width: 320px;
   height: 80px;
   ${({ theme }) => theme.mediaQueries.md} {
-    width: 796px;
+    width: 817px;
   }
 `
 
@@ -67,7 +67,7 @@ export const BottomBodyWrapper = styled(CardWrapperTemplate)`
   justify-content: center;
   border-radius: 0px 0px 10px 10px;
   ${({ theme }) => theme.mediaQueries.md} {
-    width: 796px;
+    width: 817px;
   }
 `
 
@@ -86,6 +86,7 @@ export const TextBoxWrapper = styled.div<{ align?: string; justify?: string; pad
   padding-bottom: ${(props) => props.padding};
   ${({ theme }) => theme.mediaQueries.md} {
     height: 100%;
+    max-width: 237px;
   }
 `
 

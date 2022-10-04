@@ -77,7 +77,7 @@ const BillsListView: React.FC<{ bills: Bills[] }> = ({ bills }) => {
           <ListViewContent
             title={t('Vesting Term')}
             value={`${vestingTime.days}d, ${vestingTime.minutes}h, ${vestingTime.seconds}m`}
-            width={isMobile ? 120 : 120}
+            width={isMobile ? 130 : 160}
             height={52.5}
             toolTip={t('This is how long it will take for all tokens in the Bill to fully vest.')}
             toolTipPlacement={isMobile ? 'bottomRight' : 'bottomLeft'}

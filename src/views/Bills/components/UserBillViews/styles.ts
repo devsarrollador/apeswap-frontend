@@ -72,6 +72,7 @@ export const BillGifContainer = styled(Flex)`
 
 export const DescriptionContainer = styled(Flex)`
   flex-direction: column;
+  justify-content: space-around;
   padding-left: 20px;
   padding: 21px 0px 20px 20px;
   ${({ theme }) => theme.mediaQueries.md} {

@@ -113,7 +113,7 @@ const DisplayPools: React.FC<{ pools: Pool[]; openId?: number; poolTags: Tag[] }
           <ListViewContent
             title={t('Total Staked')}
             value={`$${totalDollarAmountStaked.toLocaleString(undefined)}`}
-            width={isMobile ? 160 : 110}
+            width={isMobile ? 160 : 150}
             height={50}
             toolTip={t('The total value of the tokens currently staked in this pool.')}
             toolTipPlacement="bottomRight"
